@@ -43,7 +43,7 @@ def main():
 
     #Choosing User 2 
     user = random.choice(data)
-    while user["name"] == u1_name: #making sure it chooses two different users
+    while user["name"] == user1_name: #making sure it chooses two different users
         user = random.choice(data)
     user2_name = user["name"]
     user2_followers = user["follower_count"]
@@ -59,7 +59,7 @@ def main():
         user1_name = user2_name 
 
         user = random.choice(data)
-        while user["name"] == u1_name: #making sure it chooses two different users
+        while user["name"] == user1_name: #making sure it chooses two different users
             user = random.choice(data)
 
         user2_name = user["name"]
