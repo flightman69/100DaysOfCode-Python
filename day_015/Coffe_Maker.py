@@ -126,9 +126,4 @@ while True:
             print(f"Here's your {coffee} ☕. Enjoy it and have a great day\n")
         else:
             print(f"The amount ${status} is not enough.\n")
-        input("Press Enter to continue")
-
-
-
-
-    
+        input("Press Enter to continue") 
